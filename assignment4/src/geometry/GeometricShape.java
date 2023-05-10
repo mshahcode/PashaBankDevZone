@@ -1,8 +1,8 @@
 package geometry;
 
 public class GeometricShape implements Cloneable {
-    private final int numOfSides;
-    private final double sideLength;
+    private int numOfSides;
+    private double sideLength;
     private double area;
 
     public GeometricShape(int numOfSides, double sideLength) {
@@ -10,6 +10,8 @@ public class GeometricShape implements Cloneable {
         this.sideLength = sideLength;
         this.area = getArea();
     }
+
+    public GeometricShape(){};
 
     public int getNumOfSides() {
         return numOfSides;

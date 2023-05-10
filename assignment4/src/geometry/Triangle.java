@@ -1,14 +1,16 @@
 package geometry;
 
 public class Triangle extends GeometricShape {
-    private static final int NUM_OF_SIDES = 3;
+    private static final int NUMBER_OF_SIDES = 3;
 
     private double height;
 
     public Triangle(double sideLength, double height) {
-        super(NUM_OF_SIDES, sideLength);
+        super(NUMBER_OF_SIDES, sideLength);
         this.height = height;
     }
+
+    public Triangle(){};
 
     public double getHeight() {
         return height;
