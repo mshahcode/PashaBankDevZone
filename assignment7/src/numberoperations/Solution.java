@@ -1,4 +1,4 @@
-package algorithmtasktwo;
+package numberoperations;
 
 public class Solution {
     public static int beautifulDays(int i, int j, int k) {

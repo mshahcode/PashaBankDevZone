@@ -1,4 +1,4 @@
-package algorithmtaskone;
+package scoretracker;
 
 import java.util.ArrayList;
 import java.util.List;
