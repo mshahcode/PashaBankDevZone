@@ -11,7 +11,7 @@ public class StringCapitalization {
 
         List<String> filteredStrings = filtrationInterface.filterStringArray(strings);
         System.out.println(filteredStrings);
-     }
+    }
 }
 
 
