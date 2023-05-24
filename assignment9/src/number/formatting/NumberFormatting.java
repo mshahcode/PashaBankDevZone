@@ -13,6 +13,6 @@ public class NumberFormatting {
                 .collect(Collectors.joining(","));
 
         String formattedNumbers = numberFormatterInterface.formatNumbers(numbers);
-        System.out.println(formattedNumbers); // Output: o3,e44,o7,e20,e12
+        System.out.println(formattedNumbers);
     }
 }
