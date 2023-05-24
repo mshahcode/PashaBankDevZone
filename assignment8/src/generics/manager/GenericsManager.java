@@ -1,4 +1,4 @@
-package genericsmanager;
+package generics.manager;
 
 import java.util.Collection;
 

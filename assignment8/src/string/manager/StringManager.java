@@ -1,4 +1,4 @@
-package stringmanager;
+package string.manager;
 
 import java.util.ArrayList;
 import java.util.List;

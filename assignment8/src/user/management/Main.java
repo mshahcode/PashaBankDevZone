@@ -1,4 +1,4 @@
-package usermanagement;
+package user.management;
 
 import java.security.NoSuchAlgorithmException;
 

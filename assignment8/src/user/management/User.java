@@ -1,4 +1,4 @@
-package usermanagement;
+package user.management;
 
 public class User {
     private int id;
