@@ -1,7 +1,7 @@
-package filtering.string;
+package filter;
 
 import java.util.List;
 
-interface FiltrationInterface{
+interface FiltrationInterface {
     List<String> filterStringArray(List<String> string);
 }

@@ -1,7 +1,7 @@
-package number.formatting;
+package formatter;
 
 import java.util.List;
 
-interface NumberFormatterInterface {
+interface INumberFormatter {
     String formatNumbers(List<Integer> numbers);
 }
