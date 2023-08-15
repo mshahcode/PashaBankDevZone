@@ -1,0 +1,17 @@
+server:
+  port: 8080
+
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/company
+    username: postgres
+    password: mika
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update
+
+liquibase:
+  enabled: true
+  change-log: db/changelog/db.changelog-master.yaml
+  defaultSchema: public
